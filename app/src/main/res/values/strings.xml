@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">The Movie App</string>
+    <string name="lbl_Discover">Discover</string>
+    <string name="lbl_search">Search</string>
+    <string name="lbl_banner_movie_name">The Wolverine 2013.\nOfficial Review.</string>
+    <string name="lbl_best_popular_films_and_serials">BEST POPULAR FILMS AND SERIALS</string>
+    <string name="lbl_west_world">West World</string>
+    <string name="lbl_check_movie_nshow_times">Check Movie\nShowTimes</string>
+    <string name="lbl_see_more"><u>SEE MORE</u></string>
+    <string name="lbl_showcases">SHOWCASES</string>
+    <string name="lbl_more_showcases"><u>MORE SHOWCASES</u></string>
+    <string name="lbl_the_mandalorian">The Mandalorian</string>
+    <string name="lbl_best_actors">BEST ACTORS</string>
+    <string name="lbl_more_actors"><u>MORE ACTORS</u></string>
+    <string name="lbl_fantastic_beasts_the_secrets_of_dumbledore">Fantastic Beasts: The Secrets of Dumbledore</string>
+    <string name="lbl_2h_23min">2h 23min</string>
+    <string name="lbl_action">Action</string>
+    <string name="lbl_family">Family</string>
+    <string name="lbl_adventure">Adventure</string>
+    <string name="lbl_storyline">STORYLINE</string>
+    <string name="lbl_rate_movie">RATE MOVIE</string>
+    <string name="lbl_play_trailer">PLAY TRAILER</string>
+    <string name="lbl_actors">ACTORS</string>
+    <string name="lbl_creators">CREATORS</string>
+    <string name="lbl_more_creators"><u>MORE CREATORS</u></string>
+    <string name="lbl_original_title">Original Title: </string>
+    <string name="lbl_type">Type:</string>
+    <string name="lbl_production">Production:</string>
+    <string name="lbl_premiere">Premiere:</string>
+    <string name="lbl_released_date">8 April, 2022 (United Kingdom)</string>
+    <string name="lbl_description">Description:</string>
+    <string name="lbl_story_line">Professor Albus Dumbledore knows the powerful Dark wizard Gellert Grindelwald is moving to seize control of the wizarding world. Unable to stop him alone, he entrusts Magizoologist Newt Scamander to lead an intrepid team of wizards, witches and one brave Muggle baker on a dangerous mission, where they encounter old and new beasts and clash with Grindelwald\'s growing legion of followers. But with the stakes so high, how long can Dumbledore remain on the sidelines?</string>
+    <string name="lbl_about_film">ABOUT FILM</string>
+    <string name="lvl_enter_movie_name">Please enter movie name</string>
+</resources>

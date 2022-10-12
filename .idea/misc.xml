@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/drawable/backgound_genre_chip.xml" value="0.1505" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/drawable/backgound_rate_movies.xml" value="0.1505" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/drawable/background_back_button.xml" value="0.1505" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/drawable/background_genre_chip.xml" value="0.142" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/drawable/background_play_triler.xml" value="0.1505" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/drawable/background_rate_movie.xml" value="0.142" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/drawable/background_release_year.xml" value="0.1505" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/drawable/gradient_actor.xml" value="0.1505" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/drawable/gradient_banner.xml" value="0.152" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/layout/activity_movie_details.xml" value="0.176" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/layout/view_holder_actor.xml" value="0.536" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/layout/view_holder_best_actor.xml" value="0.264" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/layout/view_holder_movie.xml" value="0.536" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/layout/view_holder_show_case.xml" value="0.27447916666666666" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/layout/view_item_banner.xml" value="0.22826086956521738" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/layout/view_pod_actor_list.xml" value="0.152" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/layout/view_pod_movie_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/IT_WMO/PADC/The Movie App/app/src/main/res/menu/menu_discover.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

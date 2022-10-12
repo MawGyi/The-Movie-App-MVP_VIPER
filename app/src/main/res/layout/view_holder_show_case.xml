@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/width_show_case"
+    android:layout_height="@dimen/height_show_case"
+    android:layout_marginStart="@dimen/margin_card_medium_2"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivShowCase"
+        app:srcCompat="@drawable/placeholder_mandalorian1"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPlayShowCase"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/colorAccent"
+        app:cornerRadius="@dimen/margin_large"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        app:icon="@drawable/ic_baseline_play_arrow_black_24dp"
+        app:iconPadding="0dp"
+        android:insetRight="0dp"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:layout_marginBottom="@dimen/margin_xlarge"
+        android:layout_width="@dimen/margin_xxlarge"
+        android:layout_height="@dimen/margin_xxlarge"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvShowCaseMovieDate"
+        android:text="New Season Streaming Oct.30"
+        android:textColor="@color/colorSecondaryTest"
+        android:elevation="@dimen/margin_medium"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        android:layout_marginBottom="@dimen/margin_medium_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvShowCaseMovieName"
+        android:text="@string/lbl_the_mandalorian"
+        android:textSize="@dimen/text_regular_2x"
+        android:elevation="@dimen/margin_medium"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignStart="@id/tvShowCaseMovieDate"
+        android:layout_above="@id/tvShowCaseMovieDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:elevation="@dimen/margin_small"
+        android:background="@color/colorTransparentOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <View
+        android:id="@+id/vGradient"
+        android:background="@drawable/gradient_actor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

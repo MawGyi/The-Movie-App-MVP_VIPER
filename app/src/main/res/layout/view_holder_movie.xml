@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/width_movie_item"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_card_medium_2"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivMovieImage"
+        app:srcCompat="@drawable/movie_image_west_world"
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_movie_image"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMovieName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivMovieImage"
+        android:layout_marginTop="9dp"
+        android:text="@string/lbl_west_world"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_regular_2x"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMovieRatingLabel"
+        android:layout_below="@id/tvMovieName"
+        android:layout_marginTop="@dimen/margin_small"
+        android:text="8.20"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/rbMovieRatingBar"
+        android:layout_below="@id/tvMovieName"
+        android:layout_toEndOf="@id/tvMovieRatingLabel"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:progressTint="@color/colorAccent"
+        android:numStars="5"
+        android:rating="5"
+        android:layout_marginTop="@dimen/margin_small"
+        style="?attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
